@@ -30,7 +30,7 @@ document.addEventListener('keydown', (fish) => {
   if (fish.key === 'e' && !isExtending) { //makes sure the line isnt extending already
     isExtending = true;
     fishingLineY = 400; 
-    setTimeout(() => { // this is a teimer from https://www.w3schools.com/jsref/met_win_settimeout.asp
+    setTimeout(() => { // this is a timer from https://www.w3schools.com/jsref/met_win_settimeout.asp
       fishingLineY = 300; //resets the position
       isExtending = false; //this allows it to be extended again
     }, 1000);
